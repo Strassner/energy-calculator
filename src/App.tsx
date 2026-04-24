@@ -89,7 +89,7 @@ const RESULTS: Record<ResultKey, { headline: string; body: string; cost: string 
   systemic: {
     headline: 'Your gap is systemic.',
     body: 'Multiple biological systems are compounding against each other simultaneously. Your energy, your stress response, your sleep architecture, and your ability to stay connected to any system long enough to see results are all broken at the same time. This is the most common result for men who have been in this state for more than two years and have tried fixing one thing at a time without moving the needle. That is not a coincidence. These systems do not operate in isolation. They feed each other. Fixing one while the others run uncorrected is why every previous attempt has eventually collapsed. This is not the hardest gap to close. It is just the one that requires all the variables addressed in the right sequence simultaneously.',
-    cost: 'Everything. Your output, your body, your energy, your identity. All of it running below what it should be, quietly, every single day.',
+    cost: 'Just as the gap is systemic, the cost is the same. Your output, body composition, energy, identity. All of it running below what it should be, quietly, every single day.',
   },
 }
 
