@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/energy-calculator/',
+  base: '/bio-debt-quiz/',
   plugins: [react()],
   publicDir: 'public',
   build: {
