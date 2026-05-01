@@ -11,6 +11,8 @@ import {
   Stack,
 } from '@mui/material'
 
+const COUNTER_URL = 'https://script.google.com/macros/s/AKfycbxPlQV3E8R5fCES9HRNwcYAZky4_22c2AVPaw_wGn8BCtKXyJfYsX2q-8vbrIi4ZG00/exec'
+
 const C = {
   bg: '#17181b',
   bgPaper: '#1d1e21',
@@ -503,6 +505,7 @@ export default function App() {
     } else {
       setResult(getResult(newAnswers))
       setScreen('analyzing')
+      fetch(COUNTER_URL, { method: 'POST', mode: 'no-cors' }).catch(() => {})
     }
   }
 
